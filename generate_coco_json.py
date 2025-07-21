@@ -5,7 +5,14 @@ import json
 import time
 import random
 
-# 配置
+# Configuration
+CATEGORY_IDS = {
+    'AppleA': 1000000000,
+    'AppleB': 2000000000,
+    'Peach': 3000000000,
+    'Pear': 4000000000,
+}
+
 DATASETS = [
     {
         'img_dir': 'AppleA/FlowerImages',
@@ -53,6 +60,13 @@ INFO = {
     }
 }
 
+def gen_random_id():
+    # Get last three digits of current timestamp
+    tail = int(str(int(time.time()))[-3:])
+    # Generate first 7 digits randomly (first digit not zero)
+    front = random.randint(1000000, 9999999)
+    return int(f"{front:07d}{tail:03d}")
+
 def get_bboxes_from_mask(mask_path, img_h, img_w):
     mask = cv2.imread(mask_path, cv2.IMREAD_GRAYSCALE)
     if mask is None:
@@ -62,7 +76,7 @@ def get_bboxes_from_mask(mask_path, img_h, img_w):
     bboxes = []
     for cnt in contours:
         x, y, w, h = cv2.boundingRect(cnt)
-        # OpenCV原点左上，COCO左下，需转换y
+        # OpenCV origin is top-left, COCO is bottom-left, so convert y
         y_coco = img_h - (y + h)
         area = w * h
         bboxes.append({
@@ -71,11 +85,6 @@ def get_bboxes_from_mask(mask_path, img_h, img_w):
         })
     return bboxes
 
-def gen_random_id():
-    base = random.randint(1000000, 9999999) * 1000
-    tail = int(str(int(time.time()))[-3:])
-    return int(str(base) + str(tail))
-
 def process_dataset(cfg):
     img_dir = cfg['img_dir']
     label_dir = cfg['label_dir']
@@ -83,7 +92,7 @@ def process_dataset(cfg):
     supercategory = cfg['supercategory']
     img_suffix = cfg['img_suffix']
     label_rule = cfg['label_rule']
-    category_id = gen_random_id()
+    category_id = CATEGORY_IDS[category]
     
     for img_name in os.listdir(img_dir):
         if not img_name.endswith(img_suffix):
@@ -99,8 +108,10 @@ def process_dataset(cfg):
         label_name = label_rule(img_name)
         label_path = os.path.join(label_dir, label_name)
         bboxes = get_bboxes_from_mask(label_path, h, w) if os.path.exists(label_path) else []
+        # Generate unique image_id
+        image_id = gen_random_id()
         images = [{
-            "id": gen_random_id(),
+            "id": image_id,
             "width": w,
             "height": h,
             "file_name": img_name,
@@ -114,7 +125,7 @@ def process_dataset(cfg):
         for bbox in bboxes:
             annotations.append({
                 "id": gen_random_id(),
-                "image_id": images[0]["id"],
+                "image_id": image_id,
                 "category_id": category_id,
                 "segmentation": [],
                 "area": bbox['area'],
