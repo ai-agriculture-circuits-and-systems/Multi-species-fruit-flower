@@ -1,70 +1,105 @@
 # Multi-species Fruit Flower Detection Dataset
 
-A comprehensive dataset of flower images from three different fruit species (apple, peach, and pear) with accompanying ground truth images. The dataset was collected under various imaging conditions to support research in flower identification algorithms that are robust to uncontrolled environments.
+A dataset of flower images from apple, peach, and pear species, including both original images and corresponding ground truth masks and object detection annotation files. The dataset is designed for research in flower detection and segmentation in orchard environments.
 
-## Dataset Description
+## Dataset Overview
 
-This dataset consists of four sets of flower images and their corresponding ground truth labels, designed for developing and testing flower detection algorithms in orchard environments. The images were acquired using different cameras and under various conditions to ensure robustness.
+This dataset contains four main groups of fruit flower images and their corresponding ground truth and detection annotation files. The images were collected under various conditions to support robust algorithm development.
 
-### Data Summary
+### Species and Sets
+- **AppleA**: High-resolution images of apple flowers
+- **AppleB**: Additional apple flower images
+- **Peach**: Images of peach flowers
+- **Pear**: Images of pear flowers
 
-The dataset includes images from three species:
-- Apple (Two sets: AppleA and AppleB)
-- Peach
-- Pear
+## Directory Structure
 
-### Dataset Components
+The dataset is organized as follows:
 
-1. **AppleA Dataset**
-   - 147 images acquired with Canon EOS 60D
-   - Includes training and validation splits
-   - Binary ground truth labels (white for flower pixels, black for non-flower pixels)
+```
+.
+├── AppleA/FlowerImages/           # AppleA flower images (.JPG)
+├── AppleA_Labels_1/AppleA_Labels/ # AppleA ground truth masks (.png)
+├── AppleB_1/AppleB/               # AppleB flower images (.bmp)
+├── AppleB_Labels_1/AppleB_Labels/ # AppleB ground truth masks (.png)
+├── Peach_1/PeachSelected/         # Peach flower images (.bmp)
+├── PeachLabels_1/PeachLabels/     # Peach ground truth masks (.png)
+├── Pear_1/Pear/                   # Pear flower images (.bmp)
+├── PearLabels_2/PearLabels/       # Pear ground truth masks (.png)
+└── generate_coco_json.py          # Script to generate detection JSONs
+```
 
-2. **AppleB Dataset**
-   - 15 images acquired with GoPro HERO 5
-   - Binary ground truth labels
+- **Image folders** contain the original flower images for each species.
+- **Label folders** contain binary mask images, where white pixels represent flower regions and black pixels represent background.
+- For each image, a detection annotation JSON file is generated in the same directory as the image, with the same base name.
 
-3. **Peach Dataset**
-   - 20 images acquired with GoPro HERO 5
-   - Binary ground truth labels
+## Annotation JSON File Explanation
 
-4. **Pear Dataset**
-   - 15 images of free-standing pear tree
-   - Acquired with GoPro HERO 5
-   - Binary ground truth labels
+Each image has a corresponding JSON annotation file (COCO-like format) describing detected flower bounding boxes. The JSON structure is as follows:
+
+```
+{
+  "info": { ... },
+  "images": [
+    {
+      "id": <unique image id>,
+      "width": <image width>,
+      "height": <image height>,
+      "file_name": <image file name>,
+      "size": <file size in bytes>,
+      "format": <file format>,
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": <unique annotation id>,
+      "image_id": <image id>,
+      "category_id": <category id>,
+      "segmentation": [],
+      "area": <area of bbox>,
+      "bbox": [x, y, width, height]
+    },
+    ...
+  ],
+  "categories": [
+    {
+      "id": <category id>,
+      "name": <category name>,
+      "supercategory": <supercategory name>
+    }
+  ]
+}
+```
+
+- **images**: Metadata for the image.
+- **annotations**: Each detected flower (from the mask) is represented by a bounding box (`bbox`), with coordinates `[x, y, width, height]` (origin at the bottom-left corner). If no mask is available, this array is empty.
+- **categories**: Category and supercategory information for the image.
+
+## How to Generate Detection Annotations
+
+Run the provided script to generate JSON annotation files for all images:
+
+```
+python generate_coco_json.py
+```
 
 ## Applications
 
-This dataset is particularly useful for:
-- Developing flower detection algorithms
-- Testing robustness in uncontrolled environments
+- Flower detection and segmentation
 - Multi-species flower identification
-- Precision agriculture applications
-- Orchard management and fruit load estimation
+- Precision agriculture and orchard management
+- Robustness testing in uncontrolled environments
 
 ## Citation
 
-When using this dataset in your research, please cite:
+If you use this dataset, please cite:
 
-```
 Dias, Philipe A.; Tabb, Amy; Medeiros, Henry (2018). Data from: Multi-species fruit flower detection using a refined semantic segmentation network. Ag Data Commons. https://doi.org/10.15482/USDA.ADC/1423466
-```
-
-## Funding
-
-This dataset was funded through ARS Integrated Orchard Management and Automation for Deciduous Tree Fruit Crops.
 
 ## Contact
 
 For questions about the dataset, please contact:
 - Amy Tabb (amy.tabb@ars.usda.gov)
-
-## Categories
-
-- Computer Vision
-- Precision Agriculture
-- Deep Learning
-- Semantic Segmentation
-- Flower Detection
-- Orchard Management
-- Agricultural Research

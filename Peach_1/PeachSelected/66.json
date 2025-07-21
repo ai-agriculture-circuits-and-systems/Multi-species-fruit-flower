@@ -1,0 +1,438 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "no_augmentation",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 1915898000614,
+      "width": 2704,
+      "height": 1520,
+      "file_name": "66.bmp",
+      "size": 12330294,
+      "format": "BMP",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1536734000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 1209,
+      "bbox": [
+        356,
+        128,
+        31,
+        39
+      ]
+    },
+    {
+      "id": 3031908000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 1800,
+      "bbox": [
+        312,
+        176,
+        36,
+        50
+      ]
+    },
+    {
+      "id": 6124806000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 621,
+      "bbox": [
+        1797,
+        347,
+        23,
+        27
+      ]
+    },
+    {
+      "id": 7258826000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 1020,
+      "bbox": [
+        1724,
+        358,
+        30,
+        34
+      ]
+    },
+    {
+      "id": 9455148000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 8692,
+      "bbox": [
+        358,
+        338,
+        82,
+        106
+      ]
+    },
+    {
+      "id": 3210235000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 1368,
+      "bbox": [
+        1757,
+        414,
+        38,
+        36
+      ]
+    },
+    {
+      "id": 3935900000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 1326,
+      "bbox": [
+        1843,
+        467,
+        51,
+        26
+      ]
+    },
+    {
+      "id": 6314966000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 1248,
+      "bbox": [
+        379,
+        485,
+        52,
+        24
+      ]
+    },
+    {
+      "id": 3944747000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 1720,
+      "bbox": [
+        1175,
+        487,
+        43,
+        40
+      ]
+    },
+    {
+      "id": 6530931000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 2576,
+      "bbox": [
+        384,
+        552,
+        56,
+        46
+      ]
+    },
+    {
+      "id": 8914866000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 4089,
+      "bbox": [
+        219,
+        558,
+        47,
+        87
+      ]
+    },
+    {
+      "id": 6925822000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 1976,
+      "bbox": [
+        83,
+        595,
+        38,
+        52
+      ]
+    },
+    {
+      "id": 3255834000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 870,
+      "bbox": [
+        183,
+        637,
+        30,
+        29
+      ]
+    },
+    {
+      "id": 1376372000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 5775,
+      "bbox": [
+        313,
+        619,
+        77,
+        75
+      ]
+    },
+    {
+      "id": 9232234000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 2695,
+      "bbox": [
+        1885,
+        654,
+        55,
+        49
+      ]
+    },
+    {
+      "id": 4630362000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 1500,
+      "bbox": [
+        416,
+        700,
+        30,
+        50
+      ]
+    },
+    {
+      "id": 3230764000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 2214,
+      "bbox": [
+        1922,
+        731,
+        54,
+        41
+      ]
+    },
+    {
+      "id": 5997844000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 15678,
+      "bbox": [
+        1774,
+        704,
+        117,
+        134
+      ]
+    },
+    {
+      "id": 4692987000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 3364,
+      "bbox": [
+        1158,
+        789,
+        58,
+        58
+      ]
+    },
+    {
+      "id": 8067098000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 966,
+      "bbox": [
+        528,
+        835,
+        42,
+        23
+      ]
+    },
+    {
+      "id": 5699953000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 10560,
+      "bbox": [
+        989,
+        783,
+        96,
+        110
+      ]
+    },
+    {
+      "id": 3628512000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 1408,
+      "bbox": [
+        495,
+        853,
+        32,
+        44
+      ]
+    },
+    {
+      "id": 3953944000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 2714,
+      "bbox": [
+        1106,
+        887,
+        46,
+        59
+      ]
+    },
+    {
+      "id": 4095802000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 2430,
+      "bbox": [
+        1028,
+        901,
+        45,
+        54
+      ]
+    },
+    {
+      "id": 8891160000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 1833,
+      "bbox": [
+        1203,
+        934,
+        39,
+        47
+      ]
+    },
+    {
+      "id": 3840051000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 1935,
+      "bbox": [
+        621,
+        1088,
+        45,
+        43
+      ]
+    },
+    {
+      "id": 5915698000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 3476,
+      "bbox": [
+        793,
+        1138,
+        79,
+        44
+      ]
+    },
+    {
+      "id": 2770471000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 594,
+      "bbox": [
+        840,
+        1184,
+        22,
+        27
+      ]
+    },
+    {
+      "id": 4730108000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 3458,
+      "bbox": [
+        1513,
+        1249,
+        38,
+        91
+      ]
+    },
+    {
+      "id": 8741618000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 1739,
+      "bbox": [
+        1636,
+        1373,
+        37,
+        47
+      ]
+    },
+    {
+      "id": 8059631000614,
+      "image_id": 1915898000614,
+      "category_id": 6804117000613,
+      "segmentation": [],
+      "area": 2209,
+      "bbox": [
+        696,
+        1459,
+        47,
+        47
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6804117000613,
+      "name": "Peach",
+      "supercategory": "peach"
+    }
+  ]
+}
