@@ -1,0 +1,191 @@
+{
+  "info": {
+    "description": "Multi-species fruit flower dataset",
+    "version": "1.0",
+    "year": 2018,
+    "contributor": "Dias, Philipe A.; Tabb, Amy; Medeiros, Henry",
+    "source": "original",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 3388365647,
+      "width": 2704,
+      "height": 1520,
+      "file_name": "54.bmp",
+      "size": 12330294,
+      "format": "BMP",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1088016647,
+      "image_id": 3388365647,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 5400,
+      "bbox": [
+        1139,
+        1207,
+        75,
+        72
+      ]
+    },
+    {
+      "id": 8946033647,
+      "image_id": 3388365647,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 323,
+      "bbox": [
+        1166,
+        1188,
+        17,
+        19
+      ]
+    },
+    {
+      "id": 8104822647,
+      "image_id": 3388365647,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 2695,
+      "bbox": [
+        1182,
+        1087,
+        55,
+        49
+      ]
+    },
+    {
+      "id": 1400638647,
+      "image_id": 3388365647,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 2530,
+      "bbox": [
+        1820,
+        1052,
+        46,
+        55
+      ]
+    },
+    {
+      "id": 8754547647,
+      "image_id": 3388365647,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 1887,
+      "bbox": [
+        1138,
+        1038,
+        51,
+        37
+      ]
+    },
+    {
+      "id": 2865307647,
+      "image_id": 3388365647,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 1044,
+      "bbox": [
+        1091,
+        996,
+        36,
+        29
+      ]
+    },
+    {
+      "id": 2985529647,
+      "image_id": 3388365647,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 1290,
+      "bbox": [
+        1797,
+        992,
+        43,
+        30
+      ]
+    },
+    {
+      "id": 6895203647,
+      "image_id": 3388365647,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 2440,
+      "bbox": [
+        2609,
+        718,
+        40,
+        61
+      ]
+    },
+    {
+      "id": 3367937647,
+      "image_id": 3388365647,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 1900,
+      "bbox": [
+        2654,
+        767,
+        38,
+        50
+      ]
+    },
+    {
+      "id": 1217376647,
+      "image_id": 3388365647,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 5110,
+      "bbox": [
+        2446,
+        932,
+        73,
+        70
+      ]
+    },
+    {
+      "id": 7964307647,
+      "image_id": 3388365647,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 3828,
+      "bbox": [
+        918,
+        994,
+        58,
+        66
+      ]
+    },
+    {
+      "id": 5894742647,
+      "image_id": 3388365647,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 4968,
+      "bbox": [
+        824,
+        1088,
+        69,
+        72
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "peach",
+      "supercategory": "peach"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "info": {
+    "description": "Multi-species fruit flower dataset",
+    "version": "1.0",
+    "year": 2018,
+    "contributor": "Dias, Philipe A.; Tabb, Amy; Medeiros, Henry",
+    "source": "original",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 3900651625,
+      "width": 5184,
+      "height": 3456,
+      "file_name": "IMG_0265.JPG",
+      "size": 8832052,
+      "format": "JPEG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 7451060625,
+      "image_id": 3900651625,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 38709,
+      "bbox": [
+        3152,
+        2850,
+        207,
+        187
+      ]
+    },
+    {
+      "id": 1744117625,
+      "image_id": 3900651625,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 5040,
+      "bbox": [
+        2783,
+        2732,
+        60,
+        84
+      ]
+    },
+    {
+      "id": 9596930625,
+      "image_id": 3900651625,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 47561,
+      "bbox": [
+        1400,
+        2004,
+        199,
+        239
+      ]
+    },
+    {
+      "id": 9961192625,
+      "image_id": 3900651625,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 11880,
+      "bbox": [
+        1374,
+        1803,
+        99,
+        120
+      ]
+    },
+    {
+      "id": 8072756625,
+      "image_id": 3900651625,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 131950,
+      "bbox": [
+        782,
+        1561,
+        377,
+        350
+      ]
+    },
+    {
+      "id": 3682138625,
+      "image_id": 3900651625,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 8736,
+      "bbox": [
+        982,
+        2996,
+        91,
+        96
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "apple",
+      "supercategory": "apple"
+    }
+  ]
+}

@@ -1,0 +1,619 @@
+{
+  "info": {
+    "year": 2018,
+    "version": "1.0.0",
+    "description": "Multi-species fruit flower apples train split",
+    "url": "https://doi.org/10.15482/USDA.ADC/1423466"
+  },
+  "images": [
+    {
+      "id": 1,
+      "file_name": "apples/images/IMG_0251.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 2,
+      "file_name": "apples/images/IMG_0253.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 3,
+      "file_name": "apples/images/IMG_0254.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 4,
+      "file_name": "apples/images/IMG_0255.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 5,
+      "file_name": "apples/images/IMG_0256.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 6,
+      "file_name": "apples/images/IMG_0257.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 7,
+      "file_name": "apples/images/IMG_0258.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 8,
+      "file_name": "apples/images/IMG_0259.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 9,
+      "file_name": "apples/images/IMG_0261.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 10,
+      "file_name": "apples/images/IMG_0262.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 11,
+      "file_name": "apples/images/IMG_0264.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 12,
+      "file_name": "apples/images/IMG_0267.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 13,
+      "file_name": "apples/images/IMG_0268.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 14,
+      "file_name": "apples/images/IMG_0269.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 15,
+      "file_name": "apples/images/IMG_0272.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 16,
+      "file_name": "apples/images/IMG_0273.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 17,
+      "file_name": "apples/images/IMG_0277.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 18,
+      "file_name": "apples/images/IMG_0278.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 19,
+      "file_name": "apples/images/IMG_0279.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 20,
+      "file_name": "apples/images/IMG_0280.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 21,
+      "file_name": "apples/images/IMG_0281.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 22,
+      "file_name": "apples/images/IMG_0283.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 23,
+      "file_name": "apples/images/IMG_0285.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 24,
+      "file_name": "apples/images/IMG_0287.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 25,
+      "file_name": "apples/images/IMG_0288.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 26,
+      "file_name": "apples/images/IMG_0289.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 27,
+      "file_name": "apples/images/IMG_0291.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 28,
+      "file_name": "apples/images/IMG_0292.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 29,
+      "file_name": "apples/images/IMG_0293.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 30,
+      "file_name": "apples/images/IMG_0294.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 31,
+      "file_name": "apples/images/IMG_0295.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 32,
+      "file_name": "apples/images/IMG_0297.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 33,
+      "file_name": "apples/images/IMG_0298.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 34,
+      "file_name": "apples/images/IMG_0299.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 35,
+      "file_name": "apples/images/IMG_0300.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 36,
+      "file_name": "apples/images/IMG_0301.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 37,
+      "file_name": "apples/images/IMG_0302.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 38,
+      "file_name": "apples/images/IMG_0303.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 39,
+      "file_name": "apples/images/IMG_0304.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 40,
+      "file_name": "apples/images/IMG_0305.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 41,
+      "file_name": "apples/images/IMG_0306.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 42,
+      "file_name": "apples/images/IMG_0307.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 43,
+      "file_name": "apples/images/IMG_0308.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 44,
+      "file_name": "apples/images/IMG_0309.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 45,
+      "file_name": "apples/images/IMG_0310.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 46,
+      "file_name": "apples/images/IMG_0313.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 47,
+      "file_name": "apples/images/IMG_0315.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 48,
+      "file_name": "apples/images/IMG_0320.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 49,
+      "file_name": "apples/images/IMG_0321.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 50,
+      "file_name": "apples/images/IMG_0322.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 51,
+      "file_name": "apples/images/IMG_0323.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 52,
+      "file_name": "apples/images/IMG_0325.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 53,
+      "file_name": "apples/images/IMG_0326.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 54,
+      "file_name": "apples/images/IMG_0327.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 55,
+      "file_name": "apples/images/IMG_0330.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 56,
+      "file_name": "apples/images/IMG_0331.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 57,
+      "file_name": "apples/images/IMG_0333.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 58,
+      "file_name": "apples/images/IMG_0334.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 59,
+      "file_name": "apples/images/IMG_0338.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 60,
+      "file_name": "apples/images/IMG_0339.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 61,
+      "file_name": "apples/images/IMG_0340.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 62,
+      "file_name": "apples/images/IMG_0343.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 63,
+      "file_name": "apples/images/IMG_0345.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 64,
+      "file_name": "apples/images/IMG_0346.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 65,
+      "file_name": "apples/images/IMG_0347.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 66,
+      "file_name": "apples/images/IMG_0348.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 67,
+      "file_name": "apples/images/IMG_0350.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 68,
+      "file_name": "apples/images/IMG_0351.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 69,
+      "file_name": "apples/images/IMG_0352.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 70,
+      "file_name": "apples/images/IMG_0353.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 71,
+      "file_name": "apples/images/IMG_0355.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 72,
+      "file_name": "apples/images/IMG_0356.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 73,
+      "file_name": "apples/images/IMG_0357.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 74,
+      "file_name": "apples/images/IMG_0358.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 75,
+      "file_name": "apples/images/IMG_0359.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 76,
+      "file_name": "apples/images/IMG_0360.JPG",
+      "width": 3456,
+      "height": 5184
+    },
+    {
+      "id": 77,
+      "file_name": "apples/images/IMG_0362.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 78,
+      "file_name": "apples/images/IMG_0363.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 79,
+      "file_name": "apples/images/IMG_0364.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 80,
+      "file_name": "apples/images/IMG_0367.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 81,
+      "file_name": "apples/images/IMG_0368.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 82,
+      "file_name": "apples/images/IMG_0370.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 83,
+      "file_name": "apples/images/IMG_0372.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 84,
+      "file_name": "apples/images/IMG_0373.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 85,
+      "file_name": "apples/images/IMG_0374.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 86,
+      "file_name": "apples/images/IMG_0375.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 87,
+      "file_name": "apples/images/IMG_0376.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 88,
+      "file_name": "apples/images/IMG_0377.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 89,
+      "file_name": "apples/images/IMG_0378.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 90,
+      "file_name": "apples/images/IMG_0379.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 91,
+      "file_name": "apples/images/IMG_0382.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 92,
+      "file_name": "apples/images/IMG_0383.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 93,
+      "file_name": "apples/images/IMG_0384.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 94,
+      "file_name": "apples/images/IMG_0385.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 95,
+      "file_name": "apples/images/IMG_0386.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 96,
+      "file_name": "apples/images/IMG_0387.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 97,
+      "file_name": "apples/images/IMG_0388.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 98,
+      "file_name": "apples/images/IMG_0389.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 99,
+      "file_name": "apples/images/IMG_0390.JPG",
+      "width": 5184,
+      "height": 3456
+    },
+    {
+      "id": 100,
+      "file_name": "apples/images/IMG_0393.JPG",
+      "width": 5184,
+      "height": 3456
+    }
+  ],
+  "annotations": [],
+  "categories": [
+    {
+      "id": 1,
+      "name": "apple",
+      "supercategory": "apple"
+    }
+  ],
+  "licenses": []
+}

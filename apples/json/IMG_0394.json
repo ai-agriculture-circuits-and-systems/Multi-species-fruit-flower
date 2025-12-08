@@ -1,0 +1,126 @@
+{
+  "info": {
+    "description": "Multi-species fruit flower dataset",
+    "version": "1.0",
+    "year": 2018,
+    "contributor": "Dias, Philipe A.; Tabb, Amy; Medeiros, Henry",
+    "source": "original",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 7927563644,
+      "width": 5184,
+      "height": 3456,
+      "file_name": "IMG_0394.JPG",
+      "size": 8119417,
+      "format": "JPEG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 4340186644,
+      "image_id": 7927563644,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 11270,
+      "bbox": [
+        1930,
+        1945,
+        115,
+        98
+      ]
+    },
+    {
+      "id": 4064526644,
+      "image_id": 7927563644,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 17280,
+      "bbox": [
+        2304,
+        1887,
+        144,
+        120
+      ]
+    },
+    {
+      "id": 9313675644,
+      "image_id": 7927563644,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 1,
+      "bbox": [
+        2181,
+        1845,
+        1,
+        1
+      ]
+    },
+    {
+      "id": 1471913644,
+      "image_id": 7927563644,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 1,
+      "bbox": [
+        2170,
+        1844,
+        1,
+        1
+      ]
+    },
+    {
+      "id": 7795527644,
+      "image_id": 7927563644,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 1,
+      "bbox": [
+        2182,
+        1843,
+        1,
+        1
+      ]
+    },
+    {
+      "id": 8728164644,
+      "image_id": 7927563644,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 1,
+      "bbox": [
+        2165,
+        1840,
+        1,
+        1
+      ]
+    },
+    {
+      "id": 5201976644,
+      "image_id": 7927563644,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 19912,
+      "bbox": [
+        2110,
+        1771,
+        131,
+        152
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "apple",
+      "supercategory": "apple"
+    }
+  ]
+}

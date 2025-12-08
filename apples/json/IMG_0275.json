@@ -1,0 +1,243 @@
+{
+  "info": {
+    "description": "Multi-species fruit flower dataset",
+    "version": "1.0",
+    "year": 2018,
+    "contributor": "Dias, Philipe A.; Tabb, Amy; Medeiros, Henry",
+    "source": "original",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 1307157627,
+      "width": 5184,
+      "height": 3456,
+      "file_name": "IMG_0275.JPG",
+      "size": 10556191,
+      "format": "JPEG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 3958855627,
+      "image_id": 1307157627,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 20111,
+      "bbox": [
+        1628,
+        2317,
+        119,
+        169
+      ]
+    },
+    {
+      "id": 7394125627,
+      "image_id": 1307157627,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 12444,
+      "bbox": [
+        3729,
+        1687,
+        122,
+        102
+      ]
+    },
+    {
+      "id": 8751195627,
+      "image_id": 1307157627,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 2,
+      "bbox": [
+        2642,
+        1776,
+        2,
+        1
+      ]
+    },
+    {
+      "id": 6398385627,
+      "image_id": 1307157627,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 1,
+      "bbox": [
+        2651,
+        1784,
+        1,
+        1
+      ]
+    },
+    {
+      "id": 8096456627,
+      "image_id": 1307157627,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 1462,
+      "bbox": [
+        3907,
+        1759,
+        34,
+        43
+      ]
+    },
+    {
+      "id": 5990085627,
+      "image_id": 1307157627,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 19596,
+      "bbox": [
+        2549,
+        1631,
+        138,
+        142
+      ]
+    },
+    {
+      "id": 6927353627,
+      "image_id": 1307157627,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 7446,
+      "bbox": [
+        1226,
+        1742,
+        73,
+        102
+      ]
+    },
+    {
+      "id": 7330786627,
+      "image_id": 1307157627,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 50268,
+      "bbox": [
+        4284,
+        1604,
+        213,
+        236
+      ]
+    },
+    {
+      "id": 8047095627,
+      "image_id": 1307157627,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 6615,
+      "bbox": [
+        3815,
+        1822,
+        105,
+        63
+      ]
+    },
+    {
+      "id": 6933802627,
+      "image_id": 1307157627,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 5100,
+      "bbox": [
+        3957,
+        1817,
+        68,
+        75
+      ]
+    },
+    {
+      "id": 9413684627,
+      "image_id": 1307157627,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 5698,
+      "bbox": [
+        4035,
+        1832,
+        74,
+        77
+      ]
+    },
+    {
+      "id": 6606677627,
+      "image_id": 1307157627,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 13420,
+      "bbox": [
+        2048,
+        2083,
+        110,
+        122
+      ]
+    },
+    {
+      "id": 7529460627,
+      "image_id": 1307157627,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 43262,
+      "bbox": [
+        2665,
+        2031,
+        223,
+        194
+      ]
+    },
+    {
+      "id": 4034090627,
+      "image_id": 1307157627,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 36960,
+      "bbox": [
+        1440,
+        2071,
+        176,
+        210
+      ]
+    },
+    {
+      "id": 1783607627,
+      "image_id": 1307157627,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 97656,
+      "bbox": [
+        2095,
+        2297,
+        312,
+        313
+      ]
+    },
+    {
+      "id": 1806964627,
+      "image_id": 1307157627,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 8188,
+      "bbox": [
+        1325,
+        3334,
+        89,
+        92
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "apple",
+      "supercategory": "apple"
+    }
+  ]
+}
